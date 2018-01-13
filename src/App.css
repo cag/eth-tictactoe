@@ -1,0 +1,31 @@
+div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.game {
+  display: inline-block;
+  width: 320px;
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  width: 33.33%;
+  position: relative;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+td button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: large;
+}
